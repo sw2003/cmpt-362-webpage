@@ -12,7 +12,7 @@ import {
 
 export default function Hero({
   imageSrc,                 // e.g. "/assets/hero.png"
-  apkUrl = "/path/to/app.apk",
+  apkUrl = "https://drive.google.com/file/d/1eiWjz3AOiZlq1NGFsQ242H-9ds73LEvq/view?usp=sharing",
   githubUrl = "https://github.com/09shir/SFU-Errands",          // mobile/app repo
   githubWebUrl = "https://github.com/sw2003/cmpt-362-webpage",   // website repo
   youtubeUrl = "https://www.youtube.com/watch?v=your-demo-id",
@@ -78,7 +78,7 @@ export default function Hero({
                 className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-5 py-3 font-medium text-white shadow-md transition-transform hover:scale-[1.02] hover:bg-emerald-700 active:scale-95"
               >
                 <FaGooglePlay className="h-5 w-5" />
-                Download APK
+                App Apk Here
               </a>
 
               {/* GitHub (mobile/app) */}
