@@ -1,6 +1,5 @@
 
 import Navbar from "./components/navbar";
-import LinkButtons from "./components/LinkButtons";
 import Hero from "./components/Hero";
 import AboutUs from "./components/about";
 import Timeline from "./components/timeline";

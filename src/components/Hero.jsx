@@ -2,6 +2,7 @@ import {
   FaGithub,
   FaYoutube,
   FaGooglePlay,
+  FaFileArchive, // Added icon for ZIP
   FaCheckCircle,
   FaShieldAlt,
   FaBolt,
@@ -12,7 +13,8 @@ import {
 
 export default function Hero({
   imageSrc,                 // e.g. "/assets/hero.png"
-  apkUrl = "https://drive.google.com/file/d/1eiWjz3AOiZlq1NGFsQ242H-9ds73LEvq/view?usp=sharing",
+  apkUrl = "https://drive.google.com/file/d/1yA0Pw0mIpN09n9vjysEjVWJqW2vaYxYK/view?usp=sharing", // Updated APK Link
+  zipUrl = "https://drive.google.com/file/d/1wLTv44UwSsqpMbX30wp81tFKyRUBfrtU/view?usp=sharing", // Added ZIP Link
   githubUrl = "https://github.com/09shir/SFU-Errands",          // mobile/app repo
   githubWebUrl = "https://github.com/sw2003/cmpt-362-webpage",   // website repo
   youtubeUrl = "https://www.youtube.com/watch?v=your-demo-id",
@@ -79,6 +81,17 @@ export default function Hero({
               >
                 <FaGooglePlay className="h-5 w-5" />
                 App Apk Here
+              </a>
+
+              {/* ZIP Project File */}
+              <a
+                href={zipUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-orange-600 px-5 py-3 font-medium text-white shadow-md transition-transform hover:scale-[1.02] hover:bg-orange-700 active:scale-95"
+              >
+                <FaFileArchive className="h-5 w-5" />
+                Project ZIP
               </a>
 
               {/* GitHub (mobile/app) */}
