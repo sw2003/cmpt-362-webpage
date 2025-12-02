@@ -17,7 +17,7 @@ export default function Hero({
   zipUrl = "https://drive.google.com/file/d/1wLTv44UwSsqpMbX30wp81tFKyRUBfrtU/view?usp=sharing", // Added ZIP Link
   githubUrl = "https://github.com/09shir/SFU-Errands",          // mobile/app repo
   githubWebUrl = "https://github.com/sw2003/cmpt-362-webpage",   // website repo
-  youtubeUrl = "https://www.youtube.com/watch?v=your-demo-id",
+  youtubeUrl = "https://youtu.be/zknnrtnL9GY",
   pitchUrl = "https://www.youtube.com/watch?v=pys8J1maRPQ",
 }) {
   return (
